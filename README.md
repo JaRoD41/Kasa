@@ -1,6 +1,6 @@
-# P7-Kasa
+# P11-Kasa
 
-Projet n°7 de la formation Developpeur Web OPENCLASSROOMS
+# Projet n°11 - Développeur Applications Javascript React
 ## Contexte
 
 Kasa me recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
@@ -18,6 +18,18 @@ Démarrer le projet React et développer l’ensemble de l’application, les co
 ● Styling: L’utilisation de Sass est optionnelle. CSS est à utiliser par
 défaut.
 ● Pas de librairie React externe
+
+## Technos
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,sass,figma,github,html,js,vscode,vercel" />
+  </a>
+</p>
+
+Utilisation de `Figma` pour la maquette.<br>
+Utilisation de `React` pour le développement et de `Saas` pour le style.<br>
+Utilisation de `GitHub` pour le versionning et `Vercel` pour le déploiement.<br>
 
 ## Installation
 # Getting Started with Create React App
