@@ -2,11 +2,11 @@ import { useState, useRef, useEffect } from "react"; //import des hooks de base 
 import Chevron from "../../assets/images/vectorBas.svg";
 
 export default function Collapse(props) {
-	const [toggle, setToggle] = useState(false); // je definie le state du toggle (et false par défaut)
-	const [heightEl, setHeightEl] = useState(); // je definie le state de la hauteur du collapse
+	const [toggle, setToggle] = useState(false); // je definis le state du toggle (et false par défaut)
+	const [heightEl, setHeightEl] = useState(); // je definis le state de la hauteur du collapse
 
 	const toggleState = () => {
-		//je définie la fonction toggleState qui modifie la valeur toggle au clic
+		//je définis la fonction toggleState qui modifie la valeur toggle au clic
 		setToggle(!toggle);
 	};
 

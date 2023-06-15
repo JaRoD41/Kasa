@@ -3,7 +3,7 @@ import left from "../../assets/images/vector-left.svg";
 import right from "../../assets/images/vector-right.svg";
 
 export default function Carrousel({ slides }) {
-	const [current, setCurrent] = useState(0); //je définie l'index du premier slide à 0
+	const [current, setCurrent] = useState(0); //je définis l'index du premier slide à 0
 	const length = slides.length; // longueur du tableau de slides
 
 	const nextSlide = () => {
