@@ -11,6 +11,9 @@
 # production
 /build
 
+# build output from Vite
+dist/
+
 # misc
 .DS_Store
 .env.local
