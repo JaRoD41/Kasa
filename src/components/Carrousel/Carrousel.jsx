@@ -62,12 +62,23 @@ export default function Carrousel( {
           }
 
           > {
-            index===current && (
-              <img
-                src={slide}
-                alt={`Image ${index + 1} sur ${length} - appartement à louer`}
-              />
-            )
+            index===current && (<img src= {
+                slide
+              }
+
+              alt= {
+                `Image $ {
+                  index + 1
+                }
+
+                sur $ {
+                  length
+                }
+
+                - appartement à louer`
+              }
+
+              />)
           }
 
             {
