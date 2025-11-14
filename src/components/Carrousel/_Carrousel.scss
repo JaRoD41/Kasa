@@ -46,19 +46,36 @@
         display: inline-block;
         position: absolute;
         @include font(12px, 500);
-        color: #fff;
+        color: $counter-color;
         left: 50%;
         bottom: 8%;
         transform: translateX(-50%);
-        background: rgba(0, 0, 0, 0.45);
+        background: $counter-bg;
         padding: 6px 10px;
         border-radius: 8px;
         z-index: 5;
         pointer-events: none;
+        /* animate when the slide becomes active */
+        animation: counter-pop 220ms ease;
 
         @media screen and (min-width: $breakpoint-desktop) {
             @include font(18px, 500);
             bottom: 12%;
+        }
+    }
+
+    @keyframes counter-pop {
+        0% {
+            transform: translateX(-50%) scale(0.9);
+            opacity: 0;
+        }
+        60% {
+            transform: translateX(-50%) scale(1.05);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(-50%) scale(1);
+            opacity: 1;
         }
     }
 }
