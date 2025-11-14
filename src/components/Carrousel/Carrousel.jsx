@@ -81,16 +81,12 @@ export default function Carrousel( {
               />)
           }
 
-            {
-            index===current && (<span className='slider__number'role='status'aria-live='polite'aria-atomic='true'> {
-                current + 1
-              }
-
-              / {
-                length
-              }
-
-              </span>)
+          {
+            index===current && length > 1 && (
+              <span className='slider__number' role='status' aria-live='polite' aria-atomic='true'>
+                {current + 1}/{length}
+              </span>
+            )
           }
 
           </div>))
