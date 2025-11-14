@@ -1,38 +1,40 @@
 .fiche-logement__back-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: #fff;
-  color: #d32f2f;
-  border: none;
-  border-radius: 24px;
-  padding: 8px 18px;
-  font-weight: 500;
-  font-size: 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  cursor: pointer;
-  margin-bottom: 32px;
-  transition: box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    color: #d32f2f;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+    margin-bottom: 32px;
+    transition: box-shadow 0.2s;
 }
+
 .fiche-logement__back-btn:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
+
 .fiche-logement__back-btn svg {
-  width: 18px;
-  height: 18px;
-  display: inline;
+    width: 18px;
+    height: 18px;
+    display: inline;
 }
 
 .fiche-container {
-  width: 100%;
-  max-width: 1240px;
-  margin: 0 auto 48px auto;
-  padding-bottom: 32px;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto 48px auto;
+    padding-bottom: 32px;
 }
 
 @media screen and (min-width: 1440px) {
-  .fiche-container {
-    margin-bottom: 64px;
-    padding-bottom: 64px;
-  }
+    .fiche-container {
+        margin-bottom: 64px;
+        padding-bottom: 64px;
+    }
 }
