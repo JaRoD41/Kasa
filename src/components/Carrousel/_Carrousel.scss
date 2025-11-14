@@ -20,7 +20,7 @@
     bottom: 0%;
     @include small-radius;
     opacity: 0;
-    transition: opacity ease-in-out 0.6s;  //petit effet d'apparition progressive de l'image dans le slide
+    transition: opacity ease-in-out 0.6s; //petit effet d'apparition progressive de l'image dans le slide
 
     @media screen and (min-width: $breakpoint-desktop) {
         @include big-radius;
@@ -43,15 +43,22 @@
     }
 
     &__number {
-        display: none;
+        display: inline-block;
+        position: absolute;
+        @include font(12px, 500);
+        color: #fff;
+        left: 50%;
+        bottom: 8%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.45);
+        padding: 6px 10px;
+        border-radius: 8px;
+        z-index: 5;
+        pointer-events: none;
 
         @media screen and (min-width: $breakpoint-desktop) {
-            display: block;
-            position: absolute;
             @include font(18px, 500);
-            color: $tertiary-color;
-            left: 48%;
-            top: 86%;
+            bottom: 12%;
         }
     }
 }
